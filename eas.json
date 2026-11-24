@@ -1,0 +1,11 @@
+{
+  "build": {
+    "production": {
+      "environment": "production"
+    },
+    "preview": {
+      "environment": "preview",
+      "android": { "buildType": "apk" }
+    }
+  }
+}
